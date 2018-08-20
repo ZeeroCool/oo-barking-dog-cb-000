@@ -1,6 +1,6 @@
 class Dog
 
-  def initialize(name, breed)
+  def initialize
     @name = name
     @breed = breed
   end
@@ -21,8 +21,8 @@ class Dog
     @breed = new_breed
   end
 
-def bark
-  puts "Woof!"
-end
+  def bark
+    puts "Woof!"
+  end
 
 end
